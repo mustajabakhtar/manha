@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{font-family: 'Open Sans', sans-serif; padding: 0; margin:0; color:#191C1F; font-size:16px; background-color:#f5f5f5;}
+	*{padding: 0; margin: 0; box-sizing: border-box;}
+	p{padding: 0; margin: 0;}
+	ul li{padding:0; margin: 0;}
+
+	
+	.outer{width:750px; margin: 30px auto; padding:30px 30px; background-color:#fff; background-image: url("https://cdn.indiawealth.in/public/ind-marketing/insurance-bg.png"); background-size: cover; background-repeat: no-repeat;}	
+
+
+.width700{width:700px; margin: 30px auto; padding:30px 50px 0; background-color:#fff; background-image: url("https://cdn.indiawealth.in/public/ind-marketing/ideal-bg.png"); background-size: cover; background-repeat: no-repeat;}	
+
+	.txt-center{text-align: center;}	
+	
+	header{text-align: center;}	
+	
+	.flex{display: flex;}
+	.align-center{align-items: center;}
+	.just-center{justify-content: center;}
+	h1{font-size:15px; text-align: center; color:#191C1F; font-weight: 600; margin:20px 0;}	
+
+h2{font-size:32px; text-align: center; color:#017AFF; font-weight: 600; margin:20px 0 10px;}	
+	h3{font-size:14px; text-align: center; color:#191C1F; font-weight: 500; margin:0;}
+
+	.strip{background-color:#E8F4FD; border:1px solid #017AFF; padding:4px 10px; text-align: center; font-size:14px; border-radius:50px; margin:0; display: inline-block; color:#017AFF; font-weight: 500;}	
+	
+	
+	.detail-section{display: flex;   margin:30px 0 0; flex-direction: column;}
+	
+	.logo-section{ display: flex; border-left:1px solid #ccc; border-right:1px solid #ccc; border-top:1px solid #ccc; align-items: center; width:100%; padding:20px; border-radius:20px 20px 0 0;}	
+
+.border-none{border: none;}
+	
+	
+	.logo-section li{display: flex; flex: 1; justify-content: center;}
+	.logo-section li:first-child{margin-left:34%;}
+	
+.price-section{background-color:#eaf4fc; border-radius: 0 0 20px 20px; padding: 14px 20px 0; margin-bottom:16px;}	
+	
+		
+.price-section li{display: flex;  margin-bottom:20px;}	
+.price-section li span{ color:#47494C; font-size:14px; text-align: center; font-weight: 500; width: 22%;}	
+.price-section li span:first-child{text-align: left; width: 34%;}
+
+.price-section li p{	    font-weight: 300;
+    font-size: 9px;
+    margin: 10px 0 20px 0;}
+
+.disclaimer{font-size:10px; margin-bottom:10px;}
+	
+.fprice-section{background-color:#017AFF; border-radius:10px; padding:10px 20px; margin:0;}	
+.fprice-section li{display: flex; align-items: center;}	
+.fprice-section li span{ color:#fff; font-size:14px; text-align: center; font-weight: 500; width: 22%;}	
+.fprice-section li span:first-child{text-align: left; width: 34%;}
+.fprice-section li span txt{font-size:8px;}
+
+
+.limited-section{  margin:10px 0 0 0;}	
+.limited-section li{display: flex; align-items: center; background-color:#eaf4fc; border-radius:10px; padding:30px 20px; position: relative; margin-bottom:30px;}	
+.limited-section li span{ color:#47494C; font-size:14px; text-align: center; font-weight: 500; width: 22%;}	
+.limited-section li span:first-child{text-align: left; width: 34%;}
+.limited-section li span txt{font-size:8px;}
+
+
+.pay-badge{ background-color:#EBF4EC; border:1px solid #33A34D; color: #33A34D; position: absolute; top:-10%; border-radius:20px; padding:3px 8px; left:3%; font-size:12px; font-style: normal;}
+
+.regular-pay{ background-color:#E8F4FD;     border: 1px solid #017AFF;    color: #017AFF; position: absolute; top:-10%; border-radius:20px; padding:3px 8px; left:3%; font-size:12px; font-style: normal;}
+
+.pay-badge1{ background-color:#EBF4EC; border:0.2px solid #33A34D; color: #33A34D; border-radius:20px; padding:3px 8px; font-size:9px; font-style: normal; margin:0;}
+.mt10{margin-top:10px}
+.padTB25{padding-top:25px; padding-bottom:25px;}
+.posrel{position: relative;}
+
+
+.four-fector{background-color:#E8F4FD; padding:20px; display: flex; justify-content: center; margin:30px 0 0 0; border-radius:10px;}
+.four-fector li{display: flex; justify-content: center; flex: 1; font-size:14px; align-items: center;}
+.four-fector li svg{margin-right:6px; }
+
+
+.three-section{display: flex;                
+    flex-direction: row;          
+    align-items: stretch;          
+    height: 100%; margin:30px 0;}
+
+.three-section li{background-color:#fff; -webkit-box-shadow: 0px 0px 5px 0px rgba(230,230,230,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(230,230,230,1);
+box-shadow: 0px 0px 5px 0px rgba(230,230,230,1); border-radius:10px;  display: flex;                
+    flex-direction: column; padding:20px; justify-content: center;
+    flex: 1;}
+
+.three-section li p{margin-bottom:10px; font-size:20px; font-weight: 600;}
+.three-section li span{margin:14px 0 20px; display: block;}
+.blue-color{color:#017AFF; font-style:normal; font-size:20px; font-weight: 600;}
+
+.goals{margin-bottom:14px;}
+
+.goals li{font-size:20px; margin-bottom:5px; background-color: transparent!important; box-shadow: none; font-size:15px; padding:0; margin:0 0 4px 0;
+list-style-type: disc; display: flow-root;}
+
+.goals li:before {
+    content:"\A";
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background: #000;
+    display:inline-block;
+    margin:0 10px;
+}
+
+
+.goals li > div{align-items: center;}
+
+
+.recommend-section{
+    background-color: #017AFF;
+       border-radius: 50% 50% 0 0/100% 100% 0 0; width: 460px;
+    height: 210px; display: flex; text-align: center; flex-direction: column; padding:30px 0 0; margin:0 auto;}
+.cover-txt{color:#88b7f7; font-size:20px; margin:10px 0 0 0;}
+.final-amount{color:#fff; font-size:40px; font-weight: 600; margin:10px 0;}
+.strip{ background-color:#EBF4EC; border:1px solid #33A34D; color: #33A34D;  border-radius:20px; padding:3px 8px;  font-size:12px; font-style: normal; margin:0 55px;}
+.icon{    margin: 14% 10px;}
+
